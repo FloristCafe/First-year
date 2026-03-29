@@ -36,7 +36,7 @@ int main() {
         int u = q.front();
         q.pop();
 
-        for (int i = 0; i < sides[u].size(); i++) {
+        for (size_t i = 0; i < sides[u].size(); i++) {
             int v = sides[u][i];
             if (!visited[v]) {
 
