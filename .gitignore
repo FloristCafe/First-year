@@ -1,26 +1,38 @@
-/.vscode
-/Advance
-/Char
-/Class
-/Data
-<<<<<<< HEAD
-/Eazy
-/File
-/Function
-/output
-/Pointer
-/Practice
-=======
-/DP
-/Eazy
-/File
-/Function
-/Graph
-/output
-/Pointer
-/Practice
-/Practices
->>>>>>> f07f3f9e03c4aa9d716cfbfd2672575f41e8c851
+# 1. 忽略编译产生的可执行文件和中间产物
+*.exe
+*.o
+*.out
+*.obj
+output/
+
+# 2. 忽略本地编辑器/IDE的配置缓存 (绝不把个人本地配置推送到远端)
+.vscode/
+.idea/
+*.suo
+*.user
 /RAM
+
 /RAM1.1
+
 /Scrib
+/Advance
+
+/Char
+
+/Class
+
+/Data
+/Eazy
+
+/File
+
+/Function
+
+/output
+
+/Pointer
+
+/Practice
+# 3. 忽略系统级的垃圾文件
+.DS_Store
+Thumbs.db
