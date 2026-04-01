@@ -87,6 +87,7 @@ update_add(p<<1,l,mid,L,R,val);
     if(mid<R){
         update_add(p<<1|1,mid+1,r,L,R,val);
     }
+    
     pushup(p);
     return ;
 }
