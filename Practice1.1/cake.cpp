@@ -30,7 +30,7 @@ int main()
         ans=max(ans,sum[i]-sum[q.front()]);
         while(!q.empty()&&sum[q.back()]>=sum[i])//递减就pop
             q.pop_back();
-        q.push_back(i);//一个循环内，窗口滑动来摸索最小值
+        q.push_back(i);//一个循环内，窗口动来摸索最小值
         //队列中的都是用来被减去的，维持较小性
         //被踢出：比i辈分大，功能性却不如i
     }
