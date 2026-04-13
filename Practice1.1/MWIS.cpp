@@ -39,7 +39,7 @@ ll getMaxWeightSubsequence(void) {
     ll global_max = 0; // 全局最大战利品收集器
     int MAXV = 100000; // 绝对的物理体积上限（由题目数据范围决定）
 
-    for (int i = 1; i <= N; i++) {
+    for (int i = 1; i <= N; i++) {//普通循环保证更改顺序从前往后，保证序列递增
         ll max_prev_energy = 0;
         
         // 1. 防爆拦截：只有体积大于 1，才有资格向前查询！
