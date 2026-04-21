@@ -135,4 +135,4 @@ int main() {
     cout << min_fire << " " << max_fire << "\n";
 
     return 0;
-}
+}//

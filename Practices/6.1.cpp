@@ -5,6 +5,8 @@ int main(){
     string s;
     cin>>s;
     int a=0;
+    a++;
+    a--;
     for(char c:s){
         a+=(c-'0');
     }
